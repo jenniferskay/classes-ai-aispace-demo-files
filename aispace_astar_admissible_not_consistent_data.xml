@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+
+<SEARCH>
+	<GRAPH>
+		<DESCRIPTION>
+			<SHORT></SHORT>
+			<DETAILED></DETAILED>
+		</DESCRIPTION>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>A</NAME>
+			<INDEX>0</INDEX>
+			<XPOS>7541.5005</XPOS>
+			<YPOS>5423.58</YPOS>
+			<TYPE>START</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>B</NAME>
+			<INDEX>1</INDEX>
+			<XPOS>7683.1807</XPOS>
+			<YPOS>5288.06</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>C</NAME>
+			<INDEX>2</INDEX>
+			<XPOS>7832.5605</XPOS>
+			<YPOS>5186.42</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>D</NAME>
+			<INDEX>3</INDEX>
+			<XPOS>7673.9404</XPOS>
+			<YPOS>5420.5</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>5.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>E</NAME>
+			<INDEX>4</INDEX>
+			<XPOS>7849.501</XPOS>
+			<YPOS>5420.5</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>F</NAME>
+			<INDEX>5</INDEX>
+			<XPOS>8034.301</XPOS>
+			<YPOS>5418.96</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>G</NAME>
+			<INDEX>6</INDEX>
+			<XPOS>8234.5</XPOS>
+			<YPOS>5423.58</YPOS>
+			<TYPE>GOAL</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Edge Definitions -->
+
+		<EDGE>
+			<STARTINDEX>0</STARTINDEX>
+			<ENDINDEX>1</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>1</STARTINDEX>
+			<ENDINDEX>2</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>2</STARTINDEX>
+			<ENDINDEX>4</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>4</STARTINDEX>
+			<ENDINDEX>5</ENDINDEX>
+			<COST>4.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>5</STARTINDEX>
+			<ENDINDEX>6</ENDINDEX>
+			<COST>3.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>0</STARTINDEX>
+			<ENDINDEX>3</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>3</STARTINDEX>
+			<ENDINDEX>4</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+
+		<!-- Heuristic Settings -->
+
+		<HEURISTIC value="AUTOMATIC"></HEURISTIC>
+		<EDGECOSTS value="MANUAL"></EDGECOSTS>
+
+	</GRAPH>
+</SEARCH>
